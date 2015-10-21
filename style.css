@@ -1,12 +1,13 @@
 body {
+  background-image: url("images.yellow-wall-unsplash.jpeg");
   font-size: 15px;
   font-family: 'Maven Pro', sans-serif;
   /*background-image: url("images/waves-simonschmidt-unsplash.jpeg");*/
 }
 
 header {
-  background-color: #fff;
-  background-size: cover;
+  /*background-color: #fff;*/
+  /*background-size: cover;*/
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
