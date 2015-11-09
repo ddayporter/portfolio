@@ -3,15 +3,34 @@ body {
   font-size: 15px;
   font-family: 'Maven Pro', sans-serif;
   text-align: center;
-  /*background-image: url("images/waves-simonschmidt-unsplash.jpeg");*/
+  max-width: 800px;
+  min-height: 700px;
+  margin: auto;
+  background-image: url("https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?ixlib=rb-0.3.5&q=80&fm=jpg&s=abd7232ea6c3ea0d3624ce44cbad504a");
+  background-attachment: fixed;
+  background-size: cover;
+  /*images/waves-simonschmidt-unsplash.jpeg*/
 }
 
 header {
-  /*background-color: #fff;*/
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255,255,255,0.5);
   /*background-size: cover;*/
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  margin: 5px auto;
+}
+
+footer {
+  background-color: rgb(50, 50, 60);
+  background-color: rgba(50, 50, 60,0.75);
+  color: lemonchiffon;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 5px auto;
+  font-size: 10px;
 }
 
 h1 {
@@ -22,6 +41,14 @@ a {
   text-decoration: none;
   font-weight: bold;
   color: #0f6963;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  min-height: 100px;
 }
 
 /*img {
