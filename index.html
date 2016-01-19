@@ -8,18 +8,97 @@
 
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 		<link rel="stylesheet" href="css/style.css" type='text/css'>
+
 	</head>
 	<body>
-		<header>
-			<h1>Rachel A. Porter</h1>
-			<h2>web developer</h2>
-			<p><a href="mailto:rachelandrewsporter@gmail.com" alt"email" target"_blank">rachelandrewsporter@gmail.com</a></p>
-		</header>
-		<div>
-
-
+		<!-- <div class="col hide-on-small-only m3 l2"> -->
+		<div class="navbar-fixed hide-on-small-only">
+			<nav class="teal lighten-3" role="navigation">
+				<div class="nav-wrapper">
+					<ul class="right table-of-contents">
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+					</ul>
+				</div>
+		  </nav>
 		</div>
+
+
+		<header>
+			<div class="hide-on-small-only">
+				<h1>Rachel A. Porter</h1>
+				<h2>web developer</h2>
+			</div>
+			<div class="hide-on-med-and-up">
+				<h1 class="flow-text">Rachel A. Porter</h1>
+				<h2 class="flow-text">full-stack web developer</h2>
+			</div>
+		</header>
+		<div class="parallax-container">
+      <div class="parallax"><img src="images/waves-simonschmidt-unsplash.jpeg"></div>
+    </div>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m9 l10">
+					<div id="about" class="scrollspy">
+						<h2>About Me</h2>
+						<p>Umami kale chips raw denim vice. Flexitarian mlkshk green juice, pickled butcher yr williamsburg swag kickstarter waistcoat. Whatever ennui beard, 90's taxidermy mustache keffiyeh tote bag before they sold out marfa humblebrag. Shoreditch pop-up listicle, banh mi hoodie craft beer austin. Readymade DIY pug intelligentsia actually. Williamsburg church-key 3 wolf moon, affogato marfa four dollar toast literally swag migas meditation narwhal vice art party next level gentrify. Crucifix celiac art party, normcore hashtag ramps shoreditch tofu flexitarian.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m9 l10">
+					<div id="projects" class="scrollspy">
+						<h2>Projects</h2>
+						<p>Click through the tabs below to see my recent projects.</p>
+						<ul class="tabs">
+			        <li class="tab col s3"><a href="#project1">Project 1</a></li>
+			        <li class="tab col s3"><a class="active" href="#project2">Project 2</a></li>
+			        <li class="tab col s3"><a href="#project3">Project 3</a></li>
+			        <li class="tab col s3"><a href="#project4">Project 4</a></li>
+			      </ul>
+						<div id="project1" class="col s12">
+							<h2>Wheel of Time Trivia</h2>
+							<p>Description of my trivia app.</p>
+						</div>
+				    <div id="project2" class="col s12">
+				    	<h2>GameTrackr</h2>
+							<p>Description of my boardgame tracking app.</p>
+				    </div>
+				    <div id="project3" class="col s12">
+							<h2>Group Project: TLDR History</h2>
+							<p>Description of our microblogging historical humor app.</p>
+						</div>
+				    <div id="project4" class="col s12">
+							<h2>GivingYear</h2>
+							<p>Description of my charitable donation tracking app.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer teal">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m10">
+						<div id="contact" class="scrollspy">
+							<h3>Contact Me</h3>
+							<p><a href="mailto:rachelandrewsporter@gmail.com" alt"email" target"_blank">rachelandrewsporter@gmail.com</a></p>
+							<p>Single-origin coffee you probably haven't heard of them fap echo park, bushwick fingerstache cold-pressed retro tofu schlitz everyday carry pug kale chips. You probably haven't heard of them tumblr tofu, organic etsy food truck retro kickstarter raw denim slow-carb 90's kale chips hashtag. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<p>&copy; Rachel Porter 2016</p>
+			</div>
+
+		</footer>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script type="text/javascript" src="js/materialize.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
