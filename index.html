@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Rachel Porter, Web Developer</title>
 		<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Rock+Salt" rel="stylesheet" type="text/css">
-
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 		<link rel="stylesheet" href="css/style.css" type='text/css'>
 
@@ -28,7 +28,7 @@
 		<header>
 			<div class="hide-on-small-only">
 				<h1>Rachel A. Porter</h1>
-				<h2>web developer</h2>
+				<h4>web developer</h4>
 			</div>
 			<div class="hide-on-med-and-up">
 				<h1 class="flow-text">Rachel A. Porter</h1>
@@ -40,40 +40,94 @@
     </div>
 		<div class="container">
 			<div class="row">
-				<div class="col s12 m9 l10">
-					<div id="about" class="scrollspy">
-						<h2>About Me</h2>
-						<p>Umami kale chips raw denim vice. Flexitarian mlkshk green juice, pickled butcher yr williamsburg swag kickstarter waistcoat. Whatever ennui beard, 90's taxidermy mustache keffiyeh tote bag before they sold out marfa humblebrag. Shoreditch pop-up listicle, banh mi hoodie craft beer austin. Readymade DIY pug intelligentsia actually. Williamsburg church-key 3 wolf moon, affogato marfa four dollar toast literally swag migas meditation narwhal vice art party next level gentrify. Crucifix celiac art party, normcore hashtag ramps shoreditch tofu flexitarian.</p>
+				<div class="col s12 m9 l10 offset-l1">
+					<div id="about" class="scrollspy valign-wrapper">
+						<div class="col s5 valign">
+							<img src="images/rachel1.jpg" alt="" class="circle responsive-img">
+						</div>
+						<div class="col s7">
+							<h2>About Me</h2>
+							<p>A graduate of General Assembly's Web Development Immersive program, I'm a full-stack web developer able to create interactive web applications using the latest technology. I seek opportunities to continue to learn and grow as a developer.</p>
+							<p>Born near the coast of Southern Maine, the ocean is my source of calm and focus. When I'm not coding, I enjoy hiking, exploring new neighborhoods and trying new foods.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-
+		</div>
+		<div class="parallax-container">
+      <div class="parallax"><img src="images/unsplash-waves2.jpeg"></div>
+    </div>
+		<div class="container">
 			<div class="row">
-				<div class="col s12 m9 l10">
+				<div class="col s12 m10 offset-l1">
 					<div id="projects" class="scrollspy">
 						<h2>Projects</h2>
-						<p>Click through the tabs below to see my recent projects.</p>
+						<p>Click through the tabs below to see my recent projects. Each of them was completed in one week or less, during the 12-week web development immersive at General Assembly.</p>
+						<p>I'm proud of what I accomplished, but will continue to work on each one, and welcome feedback.</p>
 						<ul class="tabs">
 			        <li class="tab col s3"><a href="#project1">Project 1</a></li>
 			        <li class="tab col s3"><a class="active" href="#project2">Project 2</a></li>
 			        <li class="tab col s3"><a href="#project3">Project 3</a></li>
 			        <li class="tab col s3"><a href="#project4">Project 4</a></li>
 			      </ul>
-						<div id="project1" class="col s12">
-							<h2>Wheel of Time Trivia</h2>
-							<p>Description of my trivia app.</p>
+						<div class="row">
+							<div id="project1" class="valign-wrapper">
+								<div class="col s12 m5">
+									<a href="http://ddayporter.github.io/WoT-Trivia/" target="_blank"><img src="images/wheeloftimetrivia.png" alt="Click here to play my trivia game" class="project responsive-img"></a>
+								</div>
+								<div class="col s12 m7">
+									<h3>Wheel of Time Trivia</h3>
+									<p>My first project was to create a game using JavaScript. My favorite book series is the Wheel of Time so I chose to base my trivia game on the first book. Click the image to play the game, or visit <a href="https://github.com/ddayporter/WoT-Trivia" target="_blank">my project repo on Github</a> for a closer look.</p>
+									<h6>Technologies used: JavaScript/jQuery; CSS3/HTML5; deployed on Github Pages.</h6>
+								</div>
+							</div>
 						</div>
-				    <div id="project2" class="col s12">
-				    	<h2>GameTrackr</h2>
-							<p>Description of my boardgame tracking app.</p>
-				    </div>
-				    <div id="project3" class="col s12">
-							<h2>Group Project: TLDR History</h2>
-							<p>Description of our microblogging historical humor app.</p>
+						<div class="row">
+							<div id="project2" class="col s12">
+								<div class="row">
+									<div class="col s12 m6">
+										<h3>gameTrackr</h3>
+										<p>The specifications for Project 2 were to build a full CRUD app using Ruby on Rails. The app I chose to build is a companion app for the board game "Burgle Bros." See the video for a demo on this app, or you can find out more at <a href="https://github.com/ddayporter/gametrackr">my project repo on Github</a>.</p>
+										<h6>Technologies used: Ruby on Rails; 'devise' gem; PostgreSQL; Bootstrap/SASS; deployed on Heroku.</h6>
+									</div>
+									<!-- <div class="col s12 m6"> -->
+										<div class="video-container">
+											<iframe src="https://www.youtube.com/embed/Oa0SeCfCIh4" frameborder="0" allowfullscreen></iframe>
+										</div>
+									<!-- </div> -->
+								</div>
+							</div>
 						</div>
-				    <div id="project4" class="col s12">
-							<h2>GivingYear</h2>
-							<p>Description of my charitable donation tracking app.</p>
+						<div class="row">
+							<div id="project3" class="col s12">
+								<div class="row">
+									<div class="col s12 m7">
+										<div class="card">
+											<div class="card-image">
+												<img src="images/tldrhistory1.png">
+												<span class="card-title">TLDR History</span>
+											</div>
+											<div class="card-content">
+												<p>A microblogging historical humor app</p>
+											</div>
+											<div class="card-action">
+												<a href="https://github.com/ddayporter/TLDR-History" target="_blank">See the project repo on Github</a>
+											</div>
+										</div>
+									</div>
+									<div class="s12 m5">
+										<h3>Group Project: TLDR History</h3>
+										<p>The specifications for Project 3 were to work with a team to build a single-page app using Node/Express/MongoDB. We used Passport for user authentication and Bootstrap for styling.</p>
+										<h6>Technologies used: Node; Express; MongoDB; JavaScript/jQuery/AJAX; Bootstrap; deployed on Heroku.</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div id="project4" class="col s12">
+								<h2>GivingYear</h2>
+								<p>Description coming soon.</p>
+							</div>
 						</div>
 					</div>
 
@@ -83,17 +137,21 @@
 		<footer class="page-footer teal">
 			<div class="container">
 				<div class="row">
-					<div class="col s12 m10">
+					<div class="col s12 m10 offset-l1">
 						<div id="contact" class="scrollspy">
 							<h3>Contact Me</h3>
-							<p><a href="mailto:rachelandrewsporter@gmail.com" alt"email" target"_blank">rachelandrewsporter@gmail.com</a></p>
-							<p>Single-origin coffee you probably haven't heard of them fap echo park, bushwick fingerstache cold-pressed retro tofu schlitz everyday carry pug kale chips. You probably haven't heard of them tumblr tofu, organic etsy food truck retro kickstarter raw denim slow-carb 90's kale chips hashtag. </p>
+							<ul>
+								<li><a href="mailto:rachelandrewsporter@gmail.com" alt"email" target"_blank"><i class="small material-icons">email</i></a></li>
+								<li><a href="http://github.com/ddayporter" target="_blank"><img src="images/Github-Mark-32px.png" alt="Fork me on Github"></a></li>
+								<li><a href="http://twitter.com/ddayporter" target="_blank"><img src="images/twitter.png" alt="Find me on Twitter"></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="footer-copyright">
 				<p>&copy; Rachel Porter 2016</p>
+				<p>what does this look like</p>
 			</div>
 
 		</footer>

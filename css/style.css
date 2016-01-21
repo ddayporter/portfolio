@@ -1,5 +1,5 @@
 body {
-  font-size: 15px;
+  font-size: 1.25em;
   font-family: 'Maven Pro', 'Open Sans', sans-serif;
   text-align: center;
   /*background-image: url("images/waves-simonschmidt-unsplash.jpeg");*/
@@ -24,11 +24,19 @@ body {
   border-bottom: 2px solid rgb(36, 40, 55);
 }
 
+.parallax-container {
+  height: 350px;
+}
+
 header {
   background-color: #fff;
   background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+i {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 h1 {
@@ -41,17 +49,22 @@ a {
   color: #0f6963;
 }
 
-p {
-  text-transform: uppercase;
-}
-
 img {
   max-width: 1080px;
+}
+
+.project {
+  border-radius: 5px;
+  padding: 15px;
 }
 
 @media (max-width: 400px){
   .parallax-container {
     display: none;
+  }
+
+  .tab {
+    font-size: 12px;
   }
 }
 
@@ -63,9 +76,15 @@ img {
 	margin: 1px;
 }*/
 
-/*footer {
-	background-color:#EF776E;
-	color: #fff;
-	text-align: right;
-	padding: 10px 10px 15px 5px;
-}*/
+footer li {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer img {
+  width: 32px;
+}
+
+footer a {
+  color: black;
+}

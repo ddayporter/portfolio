@@ -11,5 +11,5 @@ $(document).ready(function(){
   });
 
   function showNavbar(){
-    $('.navbar-fixed').show();
+    $('.navbar-fixed').fadeIn("slow");
   }
