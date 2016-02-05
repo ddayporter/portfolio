@@ -4,12 +4,14 @@ $(document).ready(function(){
     $('ul.tabs').tabs();
 
     var options = [
-      {selector: '#projects', offset: 300, callback: 'showNavbar()'}
+      {selector: '#about', offset: 250, callback: 'fixNavbar()'}
     ];
 
     Materialize.scrollFire(options);
   });
 
-  function showNavbar(){
-    $('.navbar-fixed').fadeIn("slow");
+  function fixNavbar(){
+    $('.navbar').addClass('navbar-fixed').removeClass('navbar');
+    $('ul.table-of-contents > li').children().css("color", "white");
+    $('nav').removeClass("transparent").addClass("teal lighten-3");
   }
